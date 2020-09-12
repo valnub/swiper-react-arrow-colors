@@ -7,9 +7,9 @@ Install yarn if you haven't done yet
 ```
 $ npm install yarn -g
 ```
-Get deps
+In project folder do this to install deps:
 ```
-$ yarn start
+$ yarn
 ```
 
 ## How to start
