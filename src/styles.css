@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+code,
+pre {
+  display: block;
+  width: 100%;
+  border: 1px dashed #333;
+  background-color: #ced9ee;
+  padding: 15px;
+}
+
+.swiper-container {
+  margin-top: 20px;
+  width: 500px;
+}
+
+.slide {
+  width: 100%;
+}
+
+#swiper-color .swiper-button-next {
+  color: red;
+}
+
+#swiper-replace .swiper-button-next {
+  background-image: url(./next.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+#swiper-replace .swiper-button-next::after {
+  display: none;
+}
